@@ -1,0 +1,300 @@
+body {
+  background-image: url('../img/DeathtoStock_Creative Community1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  padding-top: $title-bar-height;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+}
+
+
+// .logo {
+ //  position: fixed;
+ //  top: 0;
+ //  left: 0;
+ //  right: 0;
+ //  width: 100%;
+ //  background-color: $basic-black;
+ //  color: white;
+//   height: $title-bar-height;
+
+ //  & > ul > li {
+ //    display: inline;
+ //    color: white;
+ //    float: right;
+ //    margin-right: 5%;
+ //    line-height: $title-bar-height;
+ //    font-size: 1.1rem;
+//   }
+// }
+
+.intro {
+  margin-bottom: 30%;
+}
+
+.intro-title {
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 1.1rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(255,255,255,0.9);
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  & > h1 {
+    color: $basic-black;
+    word-break: break-all;
+    margin: 0;
+    padding: 0;
+  }
+
+  & > h6 {
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+.section.passion > .passion-one > .title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.section.passion > .passion-two > .title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.section.passion > .passion-three > .title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.claim {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 3%;
+}
+
+.about {
+  background-color: white;
+  padding-bottom: 3%;
+  padding-top: 3%;
+
+  & > .claim {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1%;
+    padding-top: 0;
+  }
+
+  & > p {
+    margin-bottom: 0;
+  }
+}
+
+.title {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    position: relative;
+
+
+}
+.title:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: rem(1px);
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid $basic-black;
+
+}
+
+.passion {
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+  & > h2 {
+    margin: 0;
+  }
+
+  & > .passion-three > p {
+    margin-bottom: 0;
+  }
+}
+
+p {
+  @include outer-container(85%);
+  padding-bottom: 5%;
+}
+
+.projects {
+  background-color: white;
+  margin-bottom: 0;
+
+
+}
+
+.contact {
+  background-color: $light-gray;
+  margin-bottom: 0;
+  padding-bottom: 3%;
+
+
+  & > .claim {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1%;
+    padding-top: 3%;
+  }
+
+  & > p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+
+}
+
+
+.copyright {
+  height: 5rem;
+  background-color: white;
+  margin-top: 0;
+
+  & > p {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+.end {
+  background-color: $basic-black;
+  position: fixed;
+  color: white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  right: 0;
+  height: 3.7rem;
+  line-height: $title-bar-height;
+
+  & > ul > li {
+    color: white;
+    line-height: $title-bar-height;
+    font-size: 1.5rem;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.mobile {
+  color: white;
+}
+
+.projects > .grid-items {
+
+  & > .grid-item {
+  justify-content: space-between;
+  }
+
+
+}
+
+@media screen and (max-width: 899px) {
+  .fa-envelope-o {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+// Project grid boxes
+
+
+
+// tablet mode
+
+@include media($large-screen) {
+
+  body {
+  background-image: url('../img/DeathtoStock_NotStock7.jpg');
+  }
+
+  .intro-title {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    font-size: 2.5rem;
+    line-height: 1.1rem;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    padding-top: 5%;
+  }
+
+  .end > .container {
+    float: right;
+
+  & > .mobile {
+    font-size: 1rem*0.6;
+    margin-left: 25%;
+    }
+  }
+
+  .mobile:hover {
+  color: $light-gray;
+  }
+
+  .fa-envelope-o {
+  color: black;
+  }
+
+  .fa-envelope-o:hover {
+  color: red;
+  }
+
+  .contact{
+  text-align: center;
+  }
+
+
+  .intro {
+    height: 100%;
+    margin: 0 0 17% 0;
+  }
+
+  .projects > .grid-items {
+    @include outer-container(90%);
+  }
+
+
+}
+
+// largescreen mode
+
+
+
+
+
