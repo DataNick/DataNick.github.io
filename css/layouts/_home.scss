@@ -289,6 +289,34 @@ p {
     @include outer-container(90%);
   }
 
+  .section.passion {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+
+  .about {
+    padding-bottom: 0;
+  }
+
+  .projects {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .copyright {
+    height: 5rem;
+    background-color: white;
+    margin-top: 0;
+
+
+    & > p {
+      margin-top: 0;
+      text-align: center;
+      padding-bottom: 0;
+    }
+  }
+
 
 }
 
