@@ -234,7 +234,6 @@ p {
   padding-left: 10%;
   padding-right: 10%;
 
-
 }
 
 .mobile {
@@ -291,6 +290,7 @@ p {
     }
   }
 
+
 }
 
 // tablet mode
@@ -339,6 +339,9 @@ p {
 
   .end > .container {
     float: right;
+    margin-right: 5%;
+
+
 
   & > .mobile {
     font-size: 1rem*0.6;

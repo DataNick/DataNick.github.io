@@ -2565,7 +2565,8 @@ p {
     padding-top: 1.2rem; }
 
   .end > .container {
-    float: right; }
+    float: right;
+    margin-right: 5%; }
     .end > .container > .mobile {
       font-size: 0.6rem;
       margin-left: 25%; }
