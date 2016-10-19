@@ -1,5 +1,5 @@
 body {
-  background-color: #EF5350;
+  background-color: $red;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -35,7 +35,7 @@ main {
 // }
 
 .intro {
-  margin-bottom: 30%;
+  height: 90vh;
 }
 
 .intro-title {
@@ -45,8 +45,7 @@ main {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 20%;
-  padding-bottom: 5%;
+  padding-top: 10rem;
 
   & > h1 {
     color: $basic-black;
@@ -91,7 +90,7 @@ p {
 .about {
   background-color: white;
   padding-bottom: 3%;
-  padding-top: 10%;
+  padding-top: 5%;
 
   & > .claim {
     font-size: 1.5rem;
@@ -148,12 +147,13 @@ p {
 .projects {
   background-color: white;
   margin-bottom: 0;
+  padding-bottom: 5%;
 
 
 }
 
 .contact {
-  background-color: $light-gray;
+  background-color: white;
   margin-bottom: 0;
   padding-bottom: 3%;
 
@@ -260,6 +260,7 @@ p {
   background-color: #6A1B9A;
   }
 
+
   .intro-title {
     text-align: center;
     font-size: 2.5rem;
@@ -267,8 +268,7 @@ p {
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10%;
-    padding-top: 5%;
+    padding-top: 10rem;
 
     & > h1 {
       color: white;
@@ -289,7 +289,7 @@ p {
     background-color: black;
     font-color: white;
     line-height: 1.1em;
-    padding-left: 10%;
+    margin-left: 6%;
   }
 
   .end > .container {
@@ -302,7 +302,7 @@ p {
   }
 
   .mobile:hover {
-  color: $light-gray;
+  color: $red;
   }
 
   .fa-envelope-o {
@@ -310,7 +310,7 @@ p {
   }
 
   .fa-envelope-o:hover {
-  color: red;
+  color: $red;
   }
 
   .contact{
@@ -319,8 +319,7 @@ p {
 
 
   .intro {
-    height: 100%;
-    margin: 0 0 17% 0;
+    height: 80vh;
   }
 
   .projects > .grid-items {
@@ -337,7 +336,7 @@ p {
     padding-bottom: 0;
   }
 
-  .projects {
+  section.projects {
     margin-top: 0;
     padding-top: 0;
   }

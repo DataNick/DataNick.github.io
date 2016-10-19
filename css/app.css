@@ -2349,7 +2349,7 @@ main {
   font-size: 1.2rem; }
 
 .intro {
-  margin-bottom: 30%; }
+  height: 90vh; }
 
 .intro-title {
   text-align: center;
@@ -2358,8 +2358,7 @@ main {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 20%;
-  padding-bottom: 5%; }
+  padding-top: 10rem; }
   .intro-title > h1 {
     color: #000;
     word-break: break-all;
@@ -2392,7 +2391,7 @@ p {
 .about {
   background-color: white;
   padding-bottom: 3%;
-  padding-top: 10%; }
+  padding-top: 5%; }
   .about > .claim {
     font-size: 1.5rem;
     margin-bottom: 0;
@@ -2439,10 +2438,11 @@ p {
 
 .projects {
   background-color: white;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding-bottom: 5%; }
 
 .contact {
-  background-color: #ddd;
+  background-color: white;
   margin-bottom: 0;
   padding-bottom: 3%; }
   .contact > .claim {
@@ -2517,8 +2517,7 @@ p {
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10%;
-    padding-top: 5%; }
+    padding-top: 10rem; }
     .intro-title > h1 {
       color: white;
       word-break: break-all;
@@ -2534,7 +2533,7 @@ p {
     background-color: black;
     font-color: white;
     line-height: 1.1em;
-    padding-left: 10%; }
+    margin-left: 6%; }
 
   .end > .container {
     float: right; }
@@ -2543,20 +2542,19 @@ p {
       margin-left: 25%; }
 
   .mobile:hover {
-    color: #ddd; }
+    color: #EF5350; }
 
   .fa-envelope-o {
     color: black; }
 
   .fa-envelope-o:hover {
-    color: red; }
+    color: #EF5350; }
 
   .contact {
     text-align: center; }
 
   .intro {
-    height: 100%;
-    margin: 0 0 17% 0; }
+    height: 80vh; }
 
   .projects > .grid-items {
     max-width: 90%;
@@ -2575,7 +2573,7 @@ p {
   .about {
     padding-bottom: 0; }
 
-  .projects {
+  section.projects {
     margin-top: 0;
     padding-top: 0; }
 
