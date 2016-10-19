@@ -2337,7 +2337,7 @@ html {
   content: ""; }
 
 body {
-  background-image: url("../img/DeathtoStock_Creative Community1.jpg");
+  background-color: #EF5350;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
@@ -2353,12 +2353,11 @@ main {
 
 .intro-title {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 2.3rem;
   line-height: 1.1rem;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(255, 255, 255, 0.9);
   padding-top: 5%;
   padding-bottom: 5%; }
   .intro-title > h1 {
@@ -2501,11 +2500,10 @@ p {
     display: none; } }
 @media screen and (min-width: 900px) {
   body {
-    background-image: url("../img/DeathtoStock_NotStock7.jpg"); }
+    background-color: #6A1B9A; }
 
   .intro-title {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
     font-size: 2.5rem;
     line-height: 1.1rem;
     width: 75%;
@@ -2513,6 +2511,15 @@ p {
     margin-left: auto;
     margin-top: 10%;
     padding-top: 5%; }
+    .intro-title > h1 {
+      color: white;
+      word-break: break-all;
+      margin: 0;
+      padding: 0; }
+    .intro-title > h6 {
+      color: #ddd;
+      padding: 0;
+      margin: 0; }
 
   .end > .container {
     float: right; }
