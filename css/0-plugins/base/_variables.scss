@@ -46,6 +46,7 @@ $medium-gray: #999;
 $light-gray: #ddd;
 $basic-black: #000;
 $red: #EF5350;
+$purple: #6A1B9A;
 // Font Colors
 $base-font-color: $dark-gray;
 $action-color: $blue;
@@ -63,7 +64,7 @@ $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Title Bar
-$title-bar-height: 4.5rem;
+$title-bar-height: 0;
 
 // Animations
 $base-duration: 150ms;

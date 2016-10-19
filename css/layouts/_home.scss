@@ -1,17 +1,18 @@
 body {
-  background-color: $red;
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 main {
-  padding-top: $title-bar-height;
+  padding-top: 0;
 }
 
 .sub-title {
   font-size: 1.2rem;
 }
+
 
 
 // .logo {
@@ -22,20 +23,22 @@ main {
  //  width: 100%;
  //  background-color: $basic-black;
  //  color: white;
-//   height: $title-bar-height;
+//   height: 4.5rem;
 
  //  & > ul > li {
  //    display: inline;
  //    color: white;
  //    float: right;
  //    margin-right: 5%;
- //    line-height: $title-bar-height;
+ //    line-height: 4.5rem;
  //    font-size: 1.1rem;
 //   }
 // }
 
 .intro {
   height: 90vh;
+  background-color: $red;
+
 }
 
 .intro-title {
@@ -45,7 +48,7 @@ main {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 10rem;
+  padding-top: 15rem;
 
   & > h1 {
     color: $basic-black;
@@ -202,7 +205,7 @@ p {
   width: 100%;
   right: 0;
   height: 3.7rem;
-  line-height: $title-bar-height;
+  line-height: 4.5rem;
 
   & > .copyright {
     display: none;
@@ -210,7 +213,7 @@ p {
 
   & > ul > li {
     color: white;
-    line-height: $title-bar-height;
+    line-height: 4.5rem;
     font-size: 1.5rem;
   }
 }
@@ -257,7 +260,7 @@ p {
 @include media($large-screen) {
 
   body {
-  background-color: #6A1B9A;
+  background-color: white;
   }
 
 
@@ -268,7 +271,7 @@ p {
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 10rem;
+    padding-top: 15rem;
 
     & > h1 {
       color: white;
@@ -319,7 +322,8 @@ p {
 
 
   .intro {
-    height: 80vh;
+    height: 90vh;
+    background-color: $purple;
   }
 
   .projects > .grid-items {
