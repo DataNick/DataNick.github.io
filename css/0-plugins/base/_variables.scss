@@ -12,6 +12,7 @@ $visual-grid-color: lighten(red, 10%);
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 @import url(https://fonts.googleapis.com/css?family=Cantarell);
 @import url(https://fonts.googleapis.com/css?family=Signika:400,600);
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:400,700');
 
 //Font variables
 $droid: 'Droid Sans', sans-serif;
@@ -21,9 +22,10 @@ $montserrat: 'Montserrat', sans-serif;
 $righteous: 'Righteous', cursive;
 $cantarell: 'Cantarell', sans-serif;
 $signika: 'Signika', sans-serif;
+$libre: 'Abhaya Libre', serif;
 
 // Typography
-$heading-font-family: $montserrat;
+$heading-font-family: $libre;
 $base-font-family: $cantarell;
 
 // Font Sizes

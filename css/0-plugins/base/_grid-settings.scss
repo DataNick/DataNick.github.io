@@ -7,8 +7,9 @@ $grid-columns: 4;
 // $max-width: 1200px;
 
 // Neat Breakpoints
-$medium-screen: 600px;
-$large-screen: 900px;
+$medium-screen: em(600px);
+$large-screen: em(900px);
 
+$phone: new-breakpoint(max-width($medium-screen - em(1px)) 4);
 $medium-screen-up: new-breakpoint(min-width $medium-screen 4);
 $large-screen-up: new-breakpoint(min-width $large-screen 8);

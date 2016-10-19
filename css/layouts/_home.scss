@@ -48,18 +48,28 @@ main {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 15rem;
+  padding-top: 13rem;
 
   & > h1 {
     color: $basic-black;
-    word-break: break-all;
+
     margin: 0;
+    font-size: 2em;
+    line-height: 0.90em;
+
+    font-weight: 400;
     padding: 0;
+
+    & > strong {
+
+      font-weight: 700;
+    }
   }
 
-  & > h6 {
+  & > h2 {
     padding: 0;
     margin: 0;
+    font-size: 1.1em;
   }
 
 }
@@ -253,7 +263,35 @@ p {
 
 // Project grid boxes
 
+@include media($medium-screen) {
 
+  .intro-title {
+    text-align: center;
+    font-size: 2.3rem;
+    line-height: 1.1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15rem;
+
+    & > h1 {
+      color: $basic-black;
+
+      margin: 0;
+      font-size: 2em;
+      line-height: 0.90em;
+
+      font-weight: 400;
+      padding: 0;
+
+      & > strong {
+
+        font-weight: 700;
+      }
+    }
+  }
+
+}
 
 // tablet mode
 
@@ -278,12 +316,14 @@ p {
       word-break: break-all;
       margin: 0;
       padding: 0;
+      font-size: 2em;
     }
 
-    & > h6 {
+    & > h2 {
       color: $light-gray;
       padding: 0;
       margin: 0;
+      font-size: 1em;
     }
   }
 
@@ -361,7 +401,9 @@ p {
 
 }
 
-// largescreen mode
+
+
+
 
 
 
