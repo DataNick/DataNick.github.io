@@ -2358,7 +2358,7 @@ main {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 5%;
+  padding-top: 20%;
   padding-bottom: 5%; }
   .intro-title > h1 {
     color: #000;
@@ -2372,6 +2372,9 @@ main {
 .section.passion > .passion-one > .title {
   text-align: center;
   margin-bottom: 3%; }
+
+p {
+  text-align: center; }
 
 .section.passion > .passion-two > .title {
   text-align: center;
@@ -2389,7 +2392,7 @@ main {
 .about {
   background-color: white;
   padding-bottom: 3%;
-  padding-top: 3%; }
+  padding-top: 10%; }
   .about > .claim {
     font-size: 1.5rem;
     margin-bottom: 0;
@@ -2397,7 +2400,8 @@ main {
     padding-bottom: 1%;
     padding-top: 0; }
   .about > p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-align: center; }
 
 .title {
   font-size: 1.5rem;
@@ -2420,7 +2424,8 @@ main {
   .passion > h2 {
     margin: 0; }
   .passion > .passion-three > p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-align: center; }
 
 p {
   max-width: 85%;
@@ -2448,16 +2453,17 @@ p {
     padding-top: 3%; }
   .contact > p {
     padding-bottom: 0;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-align: center; }
 
-.copyright {
+.section.copyright {
   height: 5rem;
   background-color: white;
   margin-top: auto;
   margin-bottom: 4%;
   padding-bottom: 0;
   padding-top: 2%; }
-  .copyright > p {
+  .section.copyright > p {
     margin-top: 0;
     text-align: center;
     padding-bottom: 2%;
@@ -2473,6 +2479,8 @@ p {
   right: 0;
   height: 3.7rem;
   line-height: 4.5rem; }
+  .end > .copyright {
+    display: none; }
   .end > ul > li {
     color: white;
     line-height: 4.5rem;
@@ -2521,6 +2529,13 @@ p {
       padding: 0;
       margin: 0; }
 
+  .end > .copyright {
+    display: inline-block;
+    background-color: black;
+    font-color: white;
+    line-height: 1.1em;
+    padding-left: 10%; }
+
   .end > .container {
     float: right; }
     .end > .container > .mobile {
@@ -2564,14 +2579,12 @@ p {
     margin-top: 0;
     padding-top: 0; }
 
-  .copyright {
-    height: 5rem;
+  .section.copyright {
+    height: 1em;
     background-color: white;
     margin-top: 0; }
-    .copyright > p {
-      margin-top: 0;
-      text-align: center;
-      padding-bottom: 0; } }
+    .section.copyright > p {
+      display: none; } }
 .centered-navigation {
   background-color: #000;
   border-bottom: 1px solid black;
