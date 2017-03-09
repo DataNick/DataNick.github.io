@@ -1,0 +1,81 @@
+body {
+  background-color: blue;
+  padding: 20px;
+}
+
+#navbar {
+  color: yellow;
+}
+
+.title {
+  color: yellow;
+  font-weight: 100;
+  margin: 0;
+  padding-bottom: 1.5%;
+}
+
+li {
+  color: yellow;
+}
+
+.screen {
+  background: navy;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 16%;
+  border: solid black 2px;
+  border-radius: 10px;
+  color: yellow;
+  font-weight: 100;
+  font-size: 3em;
+}
+
+.headers > .cat-screen{
+  background: navy;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 16%;
+  height: 100px;
+  color: white;
+  border: solid black 2px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 1em;
+}
+
+#popup {
+  display: none;
+  border: solid 5px white;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  position: fixed;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 15%;
+  margin-left: 2px;
+  top: 10%;
+  left: 0;
+  z-index: 10;
+  bottom: 2px;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+
+#dialog {
+  background-color: white;
+  height: 100%;
+  width: 100px;
+  display: none;
+  position: absolute;
+  padding: 20px;
+}
+
+.ui-button {
+  background-color: black;
+  width: 100px;
+
+
+}
