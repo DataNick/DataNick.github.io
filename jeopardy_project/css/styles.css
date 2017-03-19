@@ -30,6 +30,11 @@ li {
   font-size: 3em;
 }
 
+.screen:hover {
+  cursor: pointer;
+}
+
+
 .headers > .cat-screen{
   background: navy;
   padding-top: 20px;
